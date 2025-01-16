@@ -2,7 +2,6 @@
   /* To do: Optimize choosing only values we will actually use on page*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
-
 body {
   font-family: "Roboto";
   margin: 0px;
@@ -27,9 +26,11 @@ ul {
 
 li {
   display: inline;
+  margin-left: 16px;
 }
 
 button {
+  display: inline;
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: 500px;
@@ -43,6 +44,15 @@ div {
   margin: 0px;
 }
 
+.top-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -50,21 +60,30 @@ div {
 }
 
 .block1 {
-  justify-content: center;
-  align-items: center;
-  padding: 100px;
   display: flex;
-  gap: 50px;
+  padding: 100px 0px;
+  gap: 60px;
+  align-items: center;
 }
 
 .header-links,
 .block1-text {
   font-size: 18px;
-  color: #E5E7EB;
+  /* color: #E5E7EB;*/
+  color: lightgrey;
 }
 
 .block1-left {
+  flex: auto;
   width: 450px;
+}
+
+.block1-left > * {
+  margin-bottom: 6px;
+}
+
+.block1-left > button {
+  margin-top: 6px;
 }
 
 .header-left {
@@ -72,13 +91,8 @@ div {
   color: #F9FAF8;
 }
 
-.header,
-.block1,
-.footer {
-  background-color: #1F2937;
-}
-
 .main-photo {
-  height: 200px;
   width: auto;
+  height: 235px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Subtle shadow for depth */
 }
