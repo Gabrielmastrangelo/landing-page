@@ -1,0 +1,84 @@
+/* Add Roboto font*/
+  /* To do: Optimize choosing only values we will actually use on page*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+
+body {
+  font-family: "Roboto";
+  margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 500px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 42px;
+}
+
+div {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block1 {
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.header-links,
+.block1-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.block1-left {
+  width: 450px;
+}
+
+.header-left {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header,
+.block1,
+.footer {
+  background-color: #1F2937;
+}
+
+.main-photo {
+  height: 200px;
+  width: auto;
+}
