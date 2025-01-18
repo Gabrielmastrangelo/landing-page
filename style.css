@@ -24,7 +24,8 @@ h2 {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
-  padding: 48px;
+  /* padding: 48px;*/
+  margin: 48px;
   text-align: center;
 }
 
@@ -108,10 +109,11 @@ div {
   display: flex;
   justify-content: center;
   gap: 32px;
+  margin-bottom: 124px;
 }
 
 .card {
-  height: 200px;
+  height: 220px;
   width: 200px;
 }
 
@@ -126,4 +128,27 @@ div {
   color: #454545;
   text-align: center;
   padding-top: 6px;
+  font-size: 18px;
 }
+
+.block3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  background-color: #E5E7EB;
+  padding: 124px 336px;
+  font-size: 20px; 
+}
+
+.block3-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+}
+
+.block3-footer {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
