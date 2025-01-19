@@ -1,10 +1,10 @@
 # Landing Page Project
 
-This repository contains the implementation of a landing page designed using HTML and CSS, based on the provided design specifications.
+This repository contains a project I completed as part of The Odin Project, and it contains the implementation of a landing page designed using HTML and CSS, based on the provided design specifications.
 
 ## Project Overview
 
-The project aims to replicate the design outlined in the `01-fullDesign.png` and `02-colorsFonts.png` files. The landing page showcases a marine company, "Nautical Insights," highlighting its services and expertise in marine logistics.
+The project aims to replicate the design outlined in the `01-fullDesign.png` and `02-colorsFonts.png` files. The landing page showcases a ficticious marine company, "Nautical Insights," highlighting its services and expertise in marine logistics.
 
 ## Features
 
@@ -32,7 +32,7 @@ The project aims to replicate the design outlined in the `01-fullDesign.png` and
 
 - `index.html`: Contains the HTML structure of the landing page.
 - `style.css`: Includes the CSS styles applied to the HTML for layout and design.
-- `pictures/`: Directory containing design reference images (`01-fullDesign.png` and `02-colorsFonts.png`).
+- `pictures/`: Directory containing design reference images (`01-fullDesign.png` and `02-colorsFonts.png`), and other images used on the web page.
 
 ## Getting Started
 
